@@ -1,0 +1,14 @@
+ros2 lifecycle set /amcl activate
+ros2 lifecycle set /behavior_server activate
+ros2 lifecycle set /bt_navigator activate
+ros2 lifecycle set /collision_monitor activate
+ros2 lifecycle set /controller_server activate
+ros2 lifecycle set /docking_server activate
+ros2 lifecycle set /global_costmap/global_costmap activate
+ros2 lifecycle set /local_costmap/local_costmap activate
+ros2 lifecycle set /map_server activate
+ros2 lifecycle set /planner_server activate
+ros2 lifecycle set /route_server activate
+ros2 lifecycle set /smoother_server activate
+ros2 lifecycle set /velocity_smoother activate
+ros2 lifecycle set /waypoint_follower activate
